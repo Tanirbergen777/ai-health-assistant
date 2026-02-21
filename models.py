@@ -16,3 +16,4 @@ class UserProfile(Base):
     height = Column(Float)
     activity_level = Column(Integer)
     goal = Column(String)
+    bmi = Column(Float)
